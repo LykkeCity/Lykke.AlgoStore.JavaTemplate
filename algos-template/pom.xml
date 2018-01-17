@@ -44,6 +44,8 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
+							<finalName>${jar.finalName}</finalName>
+							<appendAssemblyId>false</appendAssemblyId>
 							<archive>
 								<manifest>
 									<mainClass>com.lykke.algos.Main</mainClass>
